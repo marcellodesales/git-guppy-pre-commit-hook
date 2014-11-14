@@ -1,0 +1,42 @@
+{
+  "name": "git-guppy-pre-commit-hook",
+  "description": "The (pre-post) commit hooks for the Git Guppy module for your gulp workflows.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/marcellodesales/git-guppy-pre-commit-hook",
+  "author": {
+    "name": "Marcello de Sales",
+    "url": "https://github.com/marcellodesales"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcellodesales/git-guppy-pre-commit-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcellodesales/git-guppy-pre-commit-hook/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/marcellodesales/git-guppy-pre-commit-hook/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "git",
+    "git-hook",
+    "git-hooks",
+    "gulp",
+    "guppy",
+    "pre-commit-hook",
+    "pre-commit"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "postinstall": "../git-guppy/scripts/install.js"
+  },
+  "dependencies": {
+    "named-regexp": "^0.1.1"
+  }
+}
