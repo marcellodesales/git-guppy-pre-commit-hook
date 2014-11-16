@@ -34,9 +34,10 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "../git-guppy/scripts/install.js"
+    "postinstall": "../git-guppy/scripts/install.js pre-commit"
   },
   "dependencies": {
+    "git-guppy": "git+https://github.com/marcellodesales/git-guppy.git#1.0.0",
     "named-regexp": "^0.1.1"
   }
 }
