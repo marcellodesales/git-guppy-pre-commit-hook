@@ -1,5 +1,5 @@
 # git-guppy-pre-commit-hook 
-[![Travis](https://travis-ci.org/marcellodesales/git-guppy-commit-hook.svg)](https://travis-ci.org/marcellodesales/git-guppy-commit-hook) [![NPM version](https://badge.fury.io/js/git-guppy-pre-commit-hook.png)](http://badge.fury.io/js/git-guppy-pre-commit-hook) [![Dependency Status](https://david-dm.org/marcellodesales/git-guppy-pre-commit-hook.svg)](https://david-dm.org/marcellodesales/git-guppy-pre-commit-hook)
+[![NPM version](https://badge.fury.io/js/git-guppy-pre-commit-hook.png)](http://badge.fury.io/js/git-guppy-pre-commit-hook) [![Dependency Status](https://david-dm.org/marcellodesales/git-guppy-pre-commit-hook.svg)](https://david-dm.org/marcellodesales/git-guppy-pre-commit-hook)
 
 > Git pre-commit hook for Git Guppy, a Simple git-hook integration for your gulp workflows.
 

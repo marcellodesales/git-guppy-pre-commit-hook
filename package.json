@@ -1,7 +1,7 @@
 {
   "name": "git-guppy-pre-commit-hook",
   "description": "The (pre-post) commit hooks for the Git Guppy module for your gulp workflows.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/marcellodesales/git-guppy-pre-commit-hook",
   "author": {
     "name": "Marcello de Sales",
