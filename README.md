@@ -1,24 +1,15 @@
-# git-guppy [![NPM version](https://badge.fury.io/js/git-guppy-pre-commit-hook.png)](http://badge.fury.io/js/git-guppy-pre-commit-hook)
+# git-guppy-pre-commit-hook [![Travis](https://travis-ci.org/marcellodesales/git-guppy-commit-hook.svg)](https://travis-ci.org/marcellodesales/git-guppy-commit-hook) [![NPM version](https://badge.fury.io/js/git-guppy-pre-commit-hook.png)](http://badge.fury.io/js/git-guppy-pre-commit-hook) [![Dependency Status](https://david-dm.org/marcellodesales/git-guppy-pre-commit-hook.svg)](https://david-dm.org/marcellodesales/git-guppy-pre-commit-hook)
 
 > Git pre-commit hook for Git Guppy, a Simple git-hook integration for your gulp workflows.
 
-guppy streamlines and extends your git-hooks by integrating them with your 
-[gulp](http://gulpjs.com) workflow. Git-hooks can now be managed through 
-[npm](https://npmjs.org), allowing them to automatically be installed and 
-updated. And because they integrate with gulp, it's easy to modify the workflow 
-and even combine hooks with your other gulp tasks.
+Go to https://github.com/therealklanni/git-guppy to install "git-guppy", which is the core module!
 
-guppy leverages these powerful existing systems as its backbone, allowing guppy
-(and therefore your git-hooks) to remain as simple and lightweight as possible
-through interfaces you're already familiar with.
+## Git Documentation
 
-## Pre-commit hook
-
-Read more about this hook at http://git-scm.com/docs/githooks#_pre_commit.
-
-* By-passing it: using `git commit --no-verify` when installed and configured.
+Details about this hook at http://git-scm.com/docs/githooks#_pre_commit
 
 ## Install
+
 Install with [npm](npmjs.org):
 
 ```
@@ -60,17 +51,9 @@ After the installation is complete, the hook is installed at `APP/.git/hook/pre-
 
 ## Usage
 
-### Git integration
+Follow the example below to get up and running!
 
-*Automatic!* 
-
-The actual script that git will run to trigger guppy's hook will automatically be
-installed to your `APP/.git/hooks/` directory. These are just a wrapper for invoking 
-the gulp tasks that guppy registers.
-
-You can install *guppy-hooks* via `npm` 
-
-### Gulp integration
+### Git and Gulp integration
 
 Usually, pre-commit hooks can be used to trigger lint, code check, among other things. The following example
 creates a task called "check", which uses lint and jscs to verify the code prior to a commit. If the verification
